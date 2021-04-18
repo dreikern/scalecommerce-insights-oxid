@@ -1,0 +1,25 @@
+{
+    "name": "dreikern/scalecommerce-insights",
+    "description": "ScaleCommerce Insights module by dreikern GmbH",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop", "ScaleCommerce", "Insights"],
+    "homepage": "https://dreikern.io",
+    "license": ["GPL-3.0"],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "dreikern/scalecommerce-insights",
+            "blacklist-filter": [
+                "tests/**/*"
+            ]
+        }
+    },
+    "require": {},
+    "require-dev": {},
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Dreikern\\ScalecommerceInsights\\": "src"
+        }
+    },
+    "scripts": {}
+}
